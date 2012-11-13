@@ -33,7 +33,7 @@ class Stravid < Thor
     end
   end
 
-  desc "deploy", "deploys the site via LFTP to the location specified in the ftp_configuration.yml"
+  desc "deploy", "deploys the site via LFTP to the location specified in the environment"
   def deploy
     load_ftp_configuration
 
