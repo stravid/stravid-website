@@ -27,6 +27,12 @@ root_uri: http://stravid.com
       <changefreq>weekly</changefreq>
       <priority>1</priority>
    </url>
+   <url>
+      <loc>http://stravid.com/javascript-consulting-and-development/</loc>
+      <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+   </url>
 {% for post in site.posts %}
    <url>
       <loc>{{ page.root_uri }}{{ post.url }}</loc>
