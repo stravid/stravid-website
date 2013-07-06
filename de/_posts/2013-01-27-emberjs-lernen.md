@@ -21,6 +21,9 @@ Die beste und schnellste Variante ist der ["Fire Up Ember.js" screencast von Pee
 ### Ember.js Guides
 Die [offiziellen Ember.js Guides](http://emberjs.com/guides/) werden von Tag zu Tag besser. Hier kann man alles nachlesen und lernen. Durch die Menge an Information ist es jedoch schwer die relevanten Dinge zu finden die einem zeigen wie man eine Applikation mit den Ember.js Konventionen programmiert.
 
+### Embercasts
+Seit Mitte Mai werden Ember.js Screencasts auf [embercasts](http://www.embercasts.com/) veröffentlicht. Die Screencasts werden von der Community produziert und kostenlos angeboten. Sie sind eine gute Ergänzung zu den offiziellen Ember.js Resourcen, da sie auch speziellere Themen wie Authentifizierung behandeln.
+
 ### Tutorials
 Mit Google findet man viele Ember.js Tutorials über die verschiedensten Themen. **Aber hier ist Vorsicht geboten!** Da sich die API von Ember.js in den letzten Monaten / Wochen stark verändert hat, sind viele Tutorials falsch da sie veraltete Versionen von Ember.js verwenden.
 
@@ -39,4 +42,4 @@ Im Moment gibt es noch keine ausgefeilte Lösung die sich herauskristallisiert h
 * [rake-pipeline-web-filters](https://github.com/wycats/rake-pipeline-web-filters)
 * [ember-rails](https://github.com/emberjs/ember-rails)
 
-Zuletzt aktualisiert: 31. Januar 2013
+Zuletzt aktualisiert: 06. Juli 2013
