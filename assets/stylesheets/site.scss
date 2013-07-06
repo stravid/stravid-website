@@ -126,3 +126,10 @@ ul {
   display: block;
 }
 
+.call-to-action {
+  border: 2px solid $cyan;
+  background-color: rgba(42, 161, 152, 0.2);
+  padding: 5px 10px 4px 10px;
+  margin-bottom: 2em;
+  color: $base02;
+}
