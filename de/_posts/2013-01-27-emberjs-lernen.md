@@ -46,6 +46,6 @@ Zuletzt aktualisiert: 06. Juli 2013
 
 <div class="call-to-action">
   Benötigen Sie Hilfe bei einem Ember.js Projekt?<br>
-  Mein Unternehmen <a href="http://edgycircle.com">edgy circle bietet Ember.js Entwicklung und Beratung</a> an.<br><br>
+  Mein Unternehmen <a href="http://edgycircle.com/leistungen/emberjs-entwicklung-und-beratung/">edgy circle bietet Ember.js Entwicklung und Beratung</a> an.<br><br>
   Kontaktieren Sie mich: <a href="mailto:david.strauss@edgycircle.com">david.strauss@edgycircle.com</a> oder +43 664 216 403 4.
 </div>
