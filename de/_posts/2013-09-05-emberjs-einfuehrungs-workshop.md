@@ -21,8 +21,8 @@ Wenn du eine Idee hast freue ich mich über eine E-Mail an [mail@stravid.com](ma
 * App für Zeiterfassung
 * Feed Reader (Danke Thomas Czernik)
 * Rezepte Verwaltung und Wochenplannung (Danke Christian Winkler)
-* MP3 Playlists verwalten (Danke Ismail Hanoi)
-* HackerNews Reader mit Punkte, Wort und Domain Filter inklusive Notifications (Danke Franz Torghele)
+* MP3 Playlists verwalten (Danke Ismail Hanli)
+* HackerNews Reader + Punkte, Wort und Domain Filter (Danke Franz Torghele)
 
 Zuletzt aktualisiert: 6. September 2013
 
