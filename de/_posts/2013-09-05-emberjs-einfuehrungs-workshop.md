@@ -18,8 +18,13 @@ Wenn du eine Idee hast freue ich mich über eine E-Mail an [mail@stravid.com](ma
 * Blog
 * Onlinevariante von Go
 * Pomodoro Timer
+* App für Zeiterfassung
+* Feed Reader (Danke Thomas Czernik)
+* Rezepte Verwaltung und Wochenplannung (Danke Christian Winkler)
+* MP3 Playlists verwalten (Danke Ismail Hanoi)
+* HackerNews Reader mit Punkte, Wort und Domain Filter inklusive Notifications (Danke Franz Torghele)
 
-Zuletzt aktualisiert: 5. September 2013
+Zuletzt aktualisiert: 6. September 2013
 
 <div class="call-to-action">
   Benötigen Sie Hilfe bei einem Ember.js Projekt?<br>
