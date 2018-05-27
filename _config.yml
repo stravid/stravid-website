@@ -8,7 +8,7 @@ url: http://localhost:4000
 source:      .
 plugins:     ./_plugins
 destination: public
-exclude: ['public', 'Gemfile', 'Gemfile.lock', 'stravid.thor', 'ftp_configuration.yml']
+exclude: ['public', 'Gemfile', 'Gemfile.lock', 'stravid.thor']
 
 future:      true
 lsi:         false
