@@ -3,29 +3,35 @@
 <head>
   <meta charset="UTF-8">
 
-  <title>The digital home of David Strauß</title>
-  <meta name="description" content="Roam around to discover the things I built and learn how to build robust software yourself.">
+  <title>Ruby Web Applikationen konfigurieren</title>
+  <meta name="description" content="Welche Möglichkeiten gibt es, welche Vor- und Nachteile haben diese?">
 
   <style type="text/css">
     body{font:18px/1.4 system-ui,sans-serif;margin:auto;max-width:40em;padding:0 1em}img,video{max-width:100%;height:auto}@media (max-width:375px){body{font-size:.9em}}@media (max-width:320px){body{font-size:.8em}}code,kbd,pre{font-family:SF Mono,Monaco,monospace}pre{background-color:#f8f8ff;font-size:.9em;overflow:auto;padding:1em}table{border-collapse:collapse;width:100%}td,th{padding:.5em;border:1px solid}
   </style>
 </head>
 <body>
+  <h1>Ruby Web Applikationen konfigurieren</h1>
+
   <p>
-    I'm David Strauß and I have a tilted front tooth. In my childhood I flooded my neighbourhood with a self-built dam. Since then I never stopped building things. Nowadays I prefer building digital things like software systems.
+    Es gibt viele Möglichkeiten eine Applikation zu konfigurieren. In der Praxis wird das zum Beispiel nötig sobald die Applikation eine Datenbank verwendet oder eine Fehlerüberwachung vorherrscht. Die Zugangsdaten unterscheiden sich je nach dem in welcher Umgebung die Applikation gestartet wird und die Fehlerüberwachung ist meistens während der Entwicklung gänzlich deaktiviert.
   </p>
 
   <p>
-    <strong>Welcome to my digital home.</strong> It has many different rooms that accommodate the various things that I do and build.
+    weitverbreitet klassischer ansatz env, jeder kann was reinschreiben, muss dran denken fetch zu verwenden, unklar woher etwas kommt, env name muss aussagekräftig sein
   </p>
 
-  <p>
-    I'm trying to write down my <a href="/selbstmanagement.html">thoughts, ideas and routines on self-management</a> [German], let me know what works for you!
-  </p>
+
+
+  <h2>Environment Variablen</h2>
 
   <p>
-    My <a href="/cqrs-event-sourcing-research.html">current research and knowledge about CQRS and Event Sourcing</a> is another interesting area for software engineers. Another German text goes into detail <a href="/ruby-web-applikationen-konfigurieren.html">how to configure Ruby web applications</a>.
+    Ruby stellt das <code>ENV</code> Objekt zur Verfügung um Zugriff auf die Environment Variablen zu bekommen
   </p>
+
+  <h2>Konfigurationsdatei</h2>
+
+  <h2>Kommandozeilenoptionen</h2>
 
   <hr>
 
