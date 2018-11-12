@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
 
-  <title>Ruby Web Applikationen konfigurieren</title>
+  <title>Konfiguration von Ruby Web-Applikationen</title>
   <meta name="description" content="Welche Möglichkeiten gibt es, welche Vor- und Nachteile haben diese?">
 
   <style type="text/css">
@@ -11,27 +11,35 @@
   </style>
 </head>
 <body>
-  <h1>Ruby Web Applikationen konfigurieren</h1>
+  <h1>Konfiguration von Ruby Web-Applikationen</h1>
 
   <p>
-    Es gibt viele Möglichkeiten eine Applikation zu konfigurieren. In der Praxis wird das zum Beispiel nötig sobald die Applikation eine Datenbank verwendet oder eine Fehlerüberwachung vorherrscht. Die Zugangsdaten unterscheiden sich je nach dem in welcher Umgebung die Applikation gestartet wird und die Fehlerüberwachung ist meistens während der Entwicklung gänzlich deaktiviert.
+    Basierend auf persönlicher Erfahrung, Beobachtungen, Ausfällen im Produktivbetrieb und Austausch mit Kolleginnen ist meine Meinung zu Konfiguration wie folgt.
   </p>
 
   <p>
-    weitverbreitet klassischer ansatz env, jeder kann was reinschreiben, muss dran denken fetch zu verwenden, unklar woher etwas kommt, env name muss aussagekräftig sein
+    Es gibt einen Unterschied zwischen <strong>Konfigurations Werten</strong> und der <strong>Konfigurations Definition</strong>.
   </p>
-
-
-
-  <h2>Environment Variablen</h2>
 
   <p>
-    Ruby stellt das <code>ENV</code> Objekt zur Verfügung um Zugriff auf die Environment Variablen zu bekommen
+    Um Ausfälle zu verhindern ist es wichtig eine explizite Definition der Konfiguration zu haben und die Konfiguration sofort beim Start der Web-Applikation zu laden. So können Laufzeitfehler in dynamischen Programmiersprachen denen Konfigurationsfehler zugrunde liegen minimiert werden.
   </p>
 
-  <h2>Konfigurationsdatei</h2>
+  <p>
+    Konfigurations Werte können aus Umgebungsvariablen, Konfigurationsdateien oder Kommandozeilenparameter ausgelesen werden.
+  </p>
 
-  <h2>Kommandozeilenoptionen</h2>
+  <p>
+    <strong>Kommandozeilenparameter sind für sensible Werte wie Datenbank Verbindungsdaten nicht geeignet da sie im Prozessbaum des Betriebsystems für alle Benutzerinnen sichtbar sind.</strong>
+  </p>
+
+  <p>
+    Im Produktivbetrieb eignen sich Konfigurationsdateien da mit Berechtigungen Sicherheit geschaffen werden kann.
+  </p>
+
+  <p>
+    In der Entwicklung kann mit <code>--config <( echo '{"database_url":"..."}';)</code> eine Konfigurationsdatei vorgetäuscht werden um das Entwicklungserlebnis zu verbessern.
+  </p>
 
   <hr>
 
