@@ -1,0 +1,32 @@
+---
+layout: english_default
+title: Archive
+---
+
+<h1>Archive</h1>
+<p>All my english posts are listed here. There is also a page with my <a href="/de/">german writings</a>.</p>
+
+{% for post in site.categories.en %}
+
+  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% capture next_year %}{{ post.en_next.date | date: '%Y' }}{% endcapture %}
+
+  {% if forloop.first %}
+    <div class="year-divider"><h3>{{ year }}</h3></div>
+    <ul>
+  {% endif %}
+
+  <li>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  </li>
+
+  {% if year != next_year %}
+    {% unless forloop.last %}
+      </ul>
+      <div class="year-divider"><h3>{{ next_year }}</h3></div>
+      <ul>
+    {% endunless %}
+  {% endif %}
+
+{% endfor %}
+</ul>

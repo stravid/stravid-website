@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <title>Konfiguration von Ruby Web-Applikationen</title>
+  <meta name="description" content="Welche Möglichkeiten gibt es, welche Vor- und Nachteile haben diese?">
+
+  <style type="text/css">
+    body{font:18px/1.4 system-ui,sans-serif;margin:auto;max-width:40em;padding:0 1em}img,video{max-width:100%;height:auto}@media (max-width:375px){body{font-size:.9em}}@media (max-width:320px){body{font-size:.8em}}code,kbd,pre{font-family:SF Mono,Monaco,monospace}pre{background-color:#f8f8ff;font-size:.9em;overflow:auto;padding:1em}table{border-collapse:collapse;width:100%}td,th{padding:.5em;border:1px solid}
+  </style>
+</head>
+<body>
+  <h1>Konfiguration von Ruby Web-Applikationen</h1>
+
+  <p>
+    Basierend auf persönlicher Erfahrung, Beobachtungen, Ausfällen im Produktivbetrieb und Austausch mit Kolleginnen ist meine Meinung zu Konfiguration wie folgt.
+  </p>
+
+  <p>
+    Es gibt einen Unterschied zwischen <strong>Konfigurations Werten</strong> und der <strong>Konfigurations Definition</strong>.
+  </p>
+
+  <p>
+    Um Ausfälle zu verhindern ist es wichtig eine explizite Definition der Konfiguration zu haben und die Konfiguration sofort beim Start der Web-Applikation zu laden. So können Laufzeitfehler in dynamischen Programmiersprachen denen Konfigurationsfehler zugrunde liegen minimiert werden.
+  </p>
+
+  <p>
+    Konfigurations Werte können aus Umgebungsvariablen, Konfigurationsdateien oder Kommandozeilenparameter ausgelesen werden.
+  </p>
+
+  <p>
+    <strong>Kommandozeilenparameter sind für sensible Werte wie Datenbank Verbindungsdaten nicht geeignet da sie im Prozessbaum des Betriebsystems für alle Benutzerinnen sichtbar sind.</strong>
+  </p>
+
+  <p>
+    Im Produktivbetrieb eignen sich Konfigurationsdateien da mit Berechtigungen Sicherheit geschaffen werden kann.
+  </p>
+
+  <p>
+    In der Entwicklung kann mit <code>--config <( echo '{"database_url":"..."}';)</code> eine Konfigurationsdatei vorgetäuscht werden um das Entwicklungserlebnis zu verbessern.
+  </p>
+
+  <hr>
+
+  <p>
+    You will find the imprint and privacy policy linked in the next paragraph. They are there to be on the safe side. To spare you two clicks: This website doesn't use any analytics, cookies or other stuff and anonymises your IP in the web server log files.
+  </p>
+
+  <p>
+    <a href="/sitemap.html">Sitemap</a> &middot; <a href="https://www.stravid.com/impressum">Impressum</a> &middot; <a href="https://www.stravid.com/datenschutzerklaerung">Datenschutzerklärung</a>
+  </p>
+</body>
+</html>

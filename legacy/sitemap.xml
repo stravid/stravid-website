@@ -1,0 +1,44 @@
+---
+root_uri: http://stravid.com
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>http://stravid.com/</loc>
+      <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+   </url>
+   <url>
+      <loc>http://stravid.com/about/</loc>
+      <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+   </url>
+   <url>
+      <loc>http://stravid.com/de/</loc>
+      <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+   </url>
+   <url>
+      <loc>http://stravid.com/en/</loc>
+      <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+   </url>
+   <url>
+      <loc>http://stravid.com/javascript-consulting-and-development/</loc>
+      <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+   </url>
+{% for post in site.posts %}
+   <url>
+      <loc>{{ page.root_uri }}{{ post.url }}</loc>
+      <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+{% endfor %}
+</urlset>

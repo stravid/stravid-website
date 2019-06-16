@@ -1,0 +1,24 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteBase /
+RewriteRule ^blog\/\d{4}\/\d{2}\/(.*)$ http://stravid.com/articles/$1 [R=301,L]
+
+Redirect 301 /blog/ http://stravid.com/articles/
+
+RewriteRule ^articles/die-git-krabbelstube/?$ http://stravid.com/de/die-git-krabbelstube [R=301,L]
+RewriteRule ^articles/git-spart-arztkosten/?$ http://stravid.com/de/git-spart-arztkosten [R=301,L]
+RewriteRule ^articles/der-filter-effekt/?$ http://stravid.com/de/der-filter-effekt [R=301,L]
+
+RewriteRule ^articles\/(.*)$ http://stravid.com/en/$1 [R=301,L]
+RewriteRule ^labs\/(.*)$ http://stravid.com/#projects [R=301,NE,L]
+RewriteRule ^work\/(.*)$ http://stravid.com/#projects [R=301,NE,L]
+
+RewriteRule ^articles/?$ http://stravid.com/en/ [R=301,NE,L]
+RewriteRule ^work/?$ http://stravid.com/#projects [R=301,NE,L]
+RewriteRule ^labs/?$ http://stravid.com/#projects [R=301,NE,L]
+
+<IfModule mod_deflate.c>
+<FilesMatch "\\.(js|css|x?html?|html|htm|php|xml)$">
+SetOutputFilter DEFLATE
+</FilesMatch>
+</ifModule>

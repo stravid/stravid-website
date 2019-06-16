@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+
+  <title>5. Steeldarts Turnier Abend, Stadt Salzburg</title>
+
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="/darts/style.css">
+</head>
+<body>
+  <section class="header">
+    <div class="header__information">
+      <img src="dartboard.svg">
+
+      <h1>5. Steeldarts Turnier Abend</h1>
+      <p>
+        11. Dezember 2015, 19:00 Uhr<br>
+        Stadt Salzburg<br>
+        301, Straight In, Straight Out<br>
+        2€ Startgeld
+      </p>
+
+<!--       <p>
+        <strong><a href="/ergebnisse/3-steeldarts-turnier-abend-stadt-salzburg.html">Zu den Ergebnissen</a></strong>
+      </p> -->
+    </div>
+  </section>
+
+  <section class="about">
+    <h2>Über das Turnier</h2>
+    <p>
+      Die Steeldarts Turnier Abende sind Veranstaltungen wo du in einer gemütlichen Runde Steeldarts spielen kannst. Das ganze wird von Hannah und David organisiert und steckt noch in den Kinderschuhen. Die Ergebnisse der vergangenen Abende sollten dir einen Aufschluss über unser Können geben.
+    </p>
+    <p>
+      Anregungen, Tipps und Fragen per Email an David: <strong><a href="mailto:david@strauss.io">david@strauss.io</a></strong>
+    </p>
+  </section>
+
+  <section class="registration">
+    <h2>Anmeldung</h2>
+
+    <div class="js-no-upcoming-event">
+      <p>
+        Im Moment gibt es noch keinen Termin für den 5. Steeldarts Turnier Abend, deshalb ist auch keine Anmeldung möglich.
+      </p>
+    </div>
+
+    <div class="js-registration-closed">
+      <p>
+        Eine Anmeldung für den 5. Steeldarts Turnier Abend ist nicht mehr möglich.
+      </p>
+    </div>
+
+    <div class="js-registration-open">
+      <p>
+        Wenn du beim Steeldarts Turnier Abend dabei sein willst, fülle bitte folgendes Formular mit deinem Namen und deiner Email-Adresse aus. Kommt dir etwas kurzfristig dazwischen, kannst du natürlich absagen.
+      </p>
+      <form accept-charset="UTF-8" action="https://formkeep.com/f/e08b33c55e14" method="POST">
+        <input type="hidden" name="utf8" value="✓">
+        <input type="text" name="name" placeholder="NAME" required>
+        <input type="email" name="email" placeholder="EMAIL" required>
+        <button type="submit">Anmeldung absenden</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="frequently-asked-questions">
+    <h2>Häufig gestellte Fragen</h2>
+
+    <h3>Wieso wird 301 und nicht 501 gespielt?</h3>
+    <p>
+      Wir sind Anfänger und bei unseren Scores brauchen wir auch bei 301 schon genug Würfe.
+    </p>
+
+    <h3>Steeldarts? Ich habe keine Lust ständig Kopfrechnen zu müssen.</h3>
+    <p>
+      Keine Angst das übernimmt eine von uns entwickelte App die auf Tablets und Computern läuft. Wenn du spielst gibt es eine dritte Person die deinen Wurf eingibt und das Scoreboard im Auge behält.
+    </p>
+
+    <h3>Wieso wird Straight Out gespielt?</h3>
+    <p>
+      Wir sind Anfänger, müssen wir noch mehr sagen?
+    </p>
+
+    <h3>Wieso gibt es ein Startgeld?</h3>
+    <p>
+      Damit es einen kleinen Anreiz gibt.
+    </p>
+
+    <h3>Wieso ist das Startgeld so gering?</h3>
+    <p>
+      Niemand sollte seine Wohnung verpfänden müssen um mitspielen zu können.
+    </p>
+
+    <h3>Kann ich mir Steeldarts ausleihen?</h3>
+    <p>
+      Ja das kannst du.
+    </p>
+  </section>
+
+  <section class="content-segment  content-segment--turquoise">
+    <h2>Vergangene Ergebnisse</h2>
+    <p>
+      <a href="/darts/ergebnisse/1-steeldarts-turnier-abend-stadt-salzburg.html">1. Steeldarts Turnier Abend am 08. Mai 2015</a><br>
+      <a href="/darts/ergebnisse/2-steeldarts-turnier-abend-stadt-salzburg.html">2. Steeldarts Turnier Abend am 22. Mai 2015</a><br>
+      <a href="/darts/ergebnisse/3-steeldarts-turnier-abend-stadt-salzburg.html">3. Steeldarts Turnier Abend am 19. Juni 2015</a><br>
+      <a href="/darts/ergebnisse/4-steeldarts-turnier-abend-stadt-salzburg.html">4. Steeldarts Turnier Abend am 21. August 2015</a>
+    </p>
+  </section>
+
+  <script type="text/javascript">
+    var dateOfNextEvent = new Date(2015, 11, 11, 19, 00);
+    var hour = 1000 * 60 * 60;
+    var hours = 1000 * 60 * 60;
+    var now = new Date().getTime();
+    var $noUpcomingEvent = document.querySelector('.js-no-upcoming-event');
+    var $registrationClosed = document.querySelector('.js-registration-closed');
+    var $registrationOpen = document.querySelector('.js-registration-open');
+
+    if (isRegistrationOpen()) {
+      $registrationOpen.style.display = 'block';
+    }
+
+    if (isRegistrationClosed() && isThereAnUpcomingEvent()) {
+      $registrationClosed.style.display = 'block';
+    }
+
+    if (!isThereAnUpcomingEvent()) {
+      $noUpcomingEvent.style.display = 'block';
+    }
+
+    function isRegistrationOpen() {
+      return dateOfNextEvent.getTime() - 24 * hours > now;
+    }
+
+    function isRegistrationClosed() {
+      return !isRegistrationOpen();
+    }
+
+    function isThereAnUpcomingEvent() {
+      return dateOfNextEvent.getTime() > now;
+    }
+  </script>
+</body>
+</html>

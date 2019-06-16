@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>http://stravid.com/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+   </url>
+   <url>
+      <loc>http://stravid.com/about/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+   </url>
+   <url>
+      <loc>http://stravid.com/de/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+   </url>
+   <url>
+      <loc>http://stravid.com/en/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+   </url>
+   <url>
+      <loc>http://stravid.com/javascript-consulting-and-development/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/harte-tomate-a-hardware-pomodoro-timer-reporting-to-a-backend-for-storing-past-pomodori/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/de/2013-im-rueckblick/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/de/emberjs-einfuehrungs-workshop/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/de/technische-schulden-und-wasserkuebel/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/de/web-designerinnen-die-kein-html-and-css-koennen/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/de/emberjs-lernen/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/2012-in-numbers/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/reading-too-much-too-fast-three-book-diet/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/category-aware-previous-and-next-for-jekyll-posts/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/jekyll-one-command-ftp-deploys/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/easydrum-prototype-with-coremidi/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/de/hannah-lernt-git-das-problem/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/de/hannah-lernt-git/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/notes-on-pendulums-tea-and-jack-cheng/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/how-i-remember-more-from-articles-and-books-i-read/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/coffeescript-and-ruby-development-setup-on-osx-lion/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/track-your-git-commit-statistics-with-hulkort/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/personal-git-commit-statistics/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/dont-ruin-your-work-with-your-presentation/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/how-to-manage-things-and-run-a-successful-company/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/four-times-daily-launch/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/most-read-articles-in-2010/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/merry-geekly-everybody/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/contacts-aspects-friends-or-where-diaspora-is-ahead-of-facebook/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/trusting-facebook-will-embarrass-you/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/adminer-the-small-footprint-alternative-to-phpmyadmin/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/achtung-die-kurve-with-html5-canvas/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/some-interesting-reads/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/my-war-on-tabs-and-how-i-took-back-my-time/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/cleaner-javascript-code-with-enums/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/webdevelopers-let-me-introduce-you-to-gridulator/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/there-is-always-something-positive/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/improve-your-javascript-console-log-friendship/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/someone-shot-down-the-moon/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/stop-the-javascript-alert-madness/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/de/die-git-krabbelstube/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/de/git-spart-arztkosten/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/video-collection-i/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/my-airport-iq-is-above-140/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/en/minesweeper-in-3d-alias-mine3d/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://stravid.com/de/der-filter-effekt/</loc>
+      <lastmod>2019-06-08</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+</urlset>
