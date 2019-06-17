@@ -1,10 +1,3 @@
-https://www.stravid.com/articles/achtung-die-kurve-with-html5-canvas
-https://www.stravid.com/articles/adminer-the-small-footprint-alternative-to-phpmyadmin
-https://www.stravid.com/articles/cleaner-javascript-code-with-enums
-https://www.stravid.com/articles/improve-your-javascript-console-log-friendship
-https://www.stravid.com/articles/minesweeper-in-3d-alias-mine3d
-https://www.stravid.com/articles/personal-git-commit-statistics
-https://www.stravid.com/articles/trusting-facebook-will-embarrass-you
 https://www.stravid.com/blog/2010/09/die-git-krabbelstube
 https://www.stravid.com/blog/2010/09/git-spart-arztkosten
 https://www.stravid.com/blog/2010/09/stop-the-javascript-alert-madness

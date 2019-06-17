@@ -1,8 +1,13 @@
 ---
-layout: english_post
+id: 9
+outputs:
+  - /articles/personal-git-commit-statistics/index.html
+  - /9/index.html
+language: en
 title: Personal Git Commit Statistics
-meta_description: A list of possible solutions to track your personal commit statistics
+description: A list of possible solutions to track your personal commit statistics
 ---
+
 Update&#58; Thomas Buchöster and I built [Hulkort][5], a website which let's you track your Git commit statistics with the help of Git hooks!
 
 I like data.

@@ -1,7 +1,13 @@
 ---
-layout: english_post
+id: 10
+outputs:
+  - /articles/trusting-facebook-will-embarrass-you/index.html
+  - /10/index.html
+language: en
 title: Trusting Facebook Will Embarrass You
+description: Do you actually know when your friends were born? Or do you just do what Facebooks tells you to do?
 ---
+
 <p>
 Do you actually know when your friends were born? Or do you just do what Facebooks tells you to do?
 </p>
@@ -13,8 +19,8 @@ So what happened? 65 poor souls really thought the 28. of November is Mathias bi
 </p>
 <p>
 <ul>
-	<li>About 50 of them posted on the wall</li>
-	<li>The rest used Facebook Messages, texted or made a phone call</li>
+  <li>About 50 of them posted on the wall</li>
+  <li>The rest used Facebook Messages, texted or made a phone call</li>
 </ul>
 </p>
 <p>

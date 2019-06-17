@@ -1,7 +1,13 @@
 ---
-layout: english_post
+id: 7
+outputs:
+  - /articles/improve-your-javascript-console-log-friendship/index.html
+  - /7/index.html
+language: en
 title: Improve your Javascript console.log friendship
+description: Get the most out of console.log
 ---
+
 <p>
 In case you wonder what the hell <code>console.log</code> is read my earlier post <a href="http://stravid.com/blog/2010/09/stop-the-javascript-alert-madness/">Stop the Javascript alert() madness</a>.
 </p>
@@ -29,10 +35,10 @@ In order to make it more convenient we can use string substitution patterns in t
 The first argument of <code>console.log</code> is the message we want to log. We can put placeholders into this string which will get replaced in the output by the values of the additional arguments. There are 5 types of placeholders.
 </p>
 <ul>
-	<li><code>%s</code> for a String value</li>
-	<li><code>%d</code> or <code>%i</code> for a Integer value</li>
-	<li><code>%f</code> for a Floating point number</li>
-	<li><code>%o</code> for an Object hyperlink</li>
+  <li><code>%s</code> for a String value</li>
+  <li><code>%d</code> or <code>%i</code> for a Integer value</li>
+  <li><code>%f</code> for a Floating point number</li>
+  <li><code>%o</code> for an Object hyperlink</li>
 </ul>
 <p>
 <code>console.log</code> will replace the first placeholder in the message string with the first additional argument, the second placeholder with the second additional argument and so forth. The code example from above would look like this if we use placeholders.

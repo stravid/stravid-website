@@ -1,7 +1,13 @@
 ---
-layout: english_post
+id: 4
+outputs:
+  - /articles/achtung-die-kurve-with-html5-canvas/index.html
+  - /4/index.html
+language: en
 title: Achtung die Kurve with HTML5 Canvas
+description: Announcement of the HTML5 Canvas game Achtung die Kurve
 ---
+
 <p>
 Finally I can announce that <a href="http://stravid.com/projects/achtung-die-kurve/">Achtung die Kurve</a> is released!
 </p>
