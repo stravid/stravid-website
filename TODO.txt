@@ -24,8 +24,6 @@ https://www.stravid.com/de/hannah-lernt-git/…
 https://www.stravid.com/de/technische-schulden-und-wasserkuebel
 https://www.stravid.com/de/web-designerinnen-die-kein-html-and-css-koennen
 https://www.stravid.com/en
-https://www.stravid.com/en
-https://www.stravid.com/en/2012-in-numbers
 https://www.stravid.com/en/2012-in-numbers
 https://www.stravid.com/en/achtung-die-kurve-with-html5-canvas
 https://www.stravid.com/en/adminer-the-small-footprint-alternative-to-phpmyadmin
@@ -38,10 +36,8 @@ https://www.stravid.com/en/easydrum-prototype-with-coremidi
 https://www.stravid.com/en/four-times-daily-launch
 https://www.stravid.com/en/harte-tomate-a-hardware-pomodoro-timer-reporting-to-a-backend-for-storing-past-pomodori
 https://www.stravid.com/en/how-i-remember-more-from-articles-and-books-i-read
-https://www.stravid.com/en/how-i-remember-more-from-articles-and-books-i-read
 https://www.stravid.com/en/how-to-manage-things-and-run-a-successful-company
 https://www.stravid.com/en/improve-your-javascript-console-log-friendship
-https://www.stravid.com/en/jekyll-one-command-ftp-deploys
 https://www.stravid.com/en/jekyll-one-command-ftp-deploys
 https://www.stravid.com/en/merry-geekly-everybody
 https://www.stravid.com/en/minesweeper-in-3d-alias-mine3d
