@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html lang="<%= @item[:language] %>">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="<%= @item[:description] %>">
+    <meta http-equiv="refresh" content="0; URL='<%= @item[:original_output] %>'" />
+
+    <title><%= @item[:title] %></title>
+  </head>
+  <body>
+    <p>
+      Redirect to <a href="<%= @item[:original_output] %>"><%= @item[:original_output] %></a>
+    </p>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+#!/usr/bin/env ruby
+
+# Make basic sanity checks regarding id sequence and outputs uniqueness
+preprocess do
+  sorted_items = @items.sort { |a, b| a[:id] <=> b[:id] }
+  first_item = sorted_items.first
+  first_id = first_item[:id]
+  outputs = {}
+
+  # Make sure the ids start at 1
+  unless first_id == 1
+    abort "Expected `id` of `#{first_item.identifier}` to be `1` but got `#{first_id}` instead."
+  end
+
+  # Make sure ids are sequential
+  sorted_items.each_cons(2) do |x, y|
+    unless y[:id] == x[:id] + 1
+      abort "Expected sequential `id` of `#{y.identifier}` to be `#{x[:id] + 1}` but got `#{y[:id]}` instead."
+    end
+  end
+
+  sorted_items.each do |item|
+    item[:outputs].each do |output|
+      if outputs.key?(output)
+        abort "Expected output `#{output}` of `#{item.identifier}` to be uniq but it is already used by `#{outputs[output].identifier}`."
+      end
+
+      outputs[output] = item
+    end
+  end
+
+  # Create redirects for all additional outputs
+  items = @items.dup
+
+  items.each do |item|
+    original_output, *additional_outputs = item[:outputs]
+
+    additional_outputs.each do |output|
+      content = ''
+      attributes = item.attributes.merge({ outputs: [output], original_output: original_output })
+      identifier = "/redirects#{output}"
+
+      @items.create(content, attributes, identifier)
+    end
+  end
+end
+
+compile "/*.md" do
+  filter :kramdown
+  layout '/default.*'
+  write item[:outputs].first
+end
+
+compile "/redirects/**/*" do
+  layout '/redirect.*'
+  write item[:outputs].first
+end
+
+layout '/**/*', :erb
