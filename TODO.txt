@@ -1,4 +1,3 @@
-https://www.stravid.com/about
 https://www.stravid.com/action-planner.html
 https://www.stravid.com/articles/achtung-die-kurve-with-html5-canvas
 https://www.stravid.com/articles/adminer-the-small-footprint-alternative-to-phpmyadmin

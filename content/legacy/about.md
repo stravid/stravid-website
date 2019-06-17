@@ -1,6 +1,11 @@
 ---
-layout: english_default
-title: About
+id: 2
+outputs:
+  - /about/index.html
+  - /2/index.html
+language: en
+title: About David Strauß
+description: My name is David Strauß. I'm a developer from Austria, currently living in the beautiful city Salzburg.
 ---
 
 <h1>About</h1>

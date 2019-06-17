@@ -45,7 +45,7 @@ preprocess do
   end
 end
 
-compile "/*.md" do
+compile "/**/*.md" do
   filter :kramdown
   layout '/default.*'
   write item[:outputs].first
