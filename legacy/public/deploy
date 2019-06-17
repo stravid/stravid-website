@@ -1,8 +1,0 @@
-#!/bin/bash
-
-echo "Deployment started";
-
-bundle exec jekyll build
-rsync --recursive --compress --progress -e 'ssh -p 5020' build/ deployer@pandora.stravid.com:~/apps/www-stravid-com
-
-echo "Deployment finished";
