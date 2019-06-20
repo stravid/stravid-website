@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "Deployment started";
+
+bin/nanoc
+rsync --recursive --compress --progress -e 'ssh -p 5020' output/ deployer@pandora.stravid.com:~/apps/www-stravid-com
+
+echo "Deployment finished";

@@ -2,10 +2,19 @@
 
 # Make basic sanity checks regarding id sequence and outputs uniqueness
 preprocess do
-  sorted_items = @items.sort { |a, b| a[:id] <=> b[:id] }
+  standalone_items, to_be_processed_items = @items.partition do |item|
+    item.identifier.to_s.start_with?('/standalone/')
+  end
+
+  sorted_items = to_be_processed_items.sort { |a, b| a[:id] <=> b[:id] }
   first_item = sorted_items.first
   first_id = first_item[:id]
   outputs = {}
+
+  # Standalone URIs have priority
+  standalone_items.each do |item|
+    outputs[item.identifier.to_s.gsub('/standalone', '')] = item
+  end
 
   # Make sure the ids start at 1
   unless first_id == 1
@@ -30,7 +39,7 @@ preprocess do
   end
 
   # Create redirects for all additional outputs
-  items = @items.dup
+  items = sorted_items.dup
 
   items.each do |item|
     original_output, *additional_outputs = item[:outputs]
@@ -43,6 +52,10 @@ preprocess do
       @items.create(content, attributes, identifier)
     end
   end
+end
+
+compile '/standalone/**/*' do
+  write item.identifier.to_s.gsub('/standalone', '')
 end
 
 compile "/**/*.md" do
