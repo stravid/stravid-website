@@ -11,6 +11,28 @@
     </style>
   </head>
   <body>
+  <% if @item[:language] == 'de' %>
+    <p>
+      <a href="/">&larr; Startseite</a> &middot; <a href="/home">English Homepage</a>
+    </p>
+  <% end %>
+
+  <% if @item[:language] == 'en' %>
+    <p>
+      <a href="/home">&larr; Home</a> &middot; <a href="/">Deutsche Startseite</a>
+    </p>
+  <% end %>
+
     <%= yield %>
+
+    <hr>
+
+    <p>
+      <a href="/impressum">Impressum</a>
+      <br>
+      <a href="/datenschutzerklaerung">Datenschutzerklärung</a>
+      <br>
+      <a href="/sitemap.html">Sitemap</a>
+    </p>
   </body>
 </html>

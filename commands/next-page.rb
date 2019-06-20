@@ -4,7 +4,8 @@ description ''
 
 run do |options, arguments, cmd|
   site = Nanoc::Int::SiteLoader.new.new_from_cwd
-  ids = site.items.map { |item| item.attributes[:id] }
+  relevant_items = site.items.select { |item| item.identifier =~ /.*\.md$/i }
+  ids = relevant_items.map { |item| item.attributes[:id] }
   next_id = ids.max + 1
 
   puts 'Metadata section for next page:'

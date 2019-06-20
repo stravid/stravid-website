@@ -2,6 +2,49 @@
 
 # Make basic sanity checks regarding id sequence and outputs uniqueness
 preprocess do
+  # Dynamically generate Englisch and German sitemaps
+  english_content = <<~TEXT
+    # List of English content\n
+  TEXT
+
+  german_content = <<~TEXT
+    # Liste deutscher Inhalte\n
+  TEXT
+
+  relevant_items = @items.select { |item| item.identifier =~ /.*\.md$/i }
+  sorted_relevant_items = relevant_items.sort { |a, b| a[:id] <=> b[:id] }
+  max_id = relevant_items.map { |item| item[:id] }.max
+
+  sorted_relevant_items.each do |item|
+    if item[:language] == 'de'
+      german_content << "[#{item[:title]}](#{item[:outputs].first.gsub('index.html', '')})\n"
+    end
+
+    if item[:language] == 'en'
+      english_content << "[#{item[:title]}](#{item[:outputs].first.gsub('index.html', '')})\n"
+    end
+  end
+
+  @items.create(english_content, {
+    id: max_id + 1,
+    outputs: [
+      '/en/index.html'
+    ],
+    language: 'en',
+    title: 'English content written by David Strauß',
+    description: 'A sitemap of all english content.',
+  }, '/en.md')
+
+  @items.create(german_content, {
+    id: max_id + 2,
+    outputs: [
+      '/de/index.html'
+    ],
+    language: 'de',
+    title: 'Deutsche Inhalte geschrieben von David Strauß',
+    description: 'Eine Sitemap von allen deutschen Inhalten.',
+  }, '/de.md')
+
   standalone_items, to_be_processed_items = @items.partition do |item|
     item.identifier.to_s.start_with?('/standalone/')
   end
