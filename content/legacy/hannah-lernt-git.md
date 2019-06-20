@@ -7,6 +7,7 @@ language: de
 title: Hannah lernt Git
 description:
 ---
+# Hannah lernt Git
 
 Ich schreibe die "Hannah lernt Git" Serie für meine Freundin Hannah. Die Beiträge sind aber für jeden nützlich, der etwas mit Programmieren zu tun hat oder in einem Team arbeitet wo mehrere Leute mit den selben Dateien arbeiten. In so einem Umfeld ist es praktisch, wenn man mit Git umgehen kann, da es einem viel Kopfzerbrechen erspart.
 

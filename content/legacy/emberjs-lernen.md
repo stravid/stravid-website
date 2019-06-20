@@ -7,6 +7,7 @@ language: de
 title: Ember.js lernen
 description:
 ---
+# Ember.js lernen
 
 [Ember.js](http://emberjs.com/) ist ein Framework für das erstellen von komplexen Web Apps. AnfängerInnen müssen zu Beginn nicht nur das Framework, sondern auch zusätzliche Konzepte lernen.
 

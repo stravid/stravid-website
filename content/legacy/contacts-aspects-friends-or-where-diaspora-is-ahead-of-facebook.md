@@ -7,7 +7,7 @@ language: en
 title: Friends or where Diaspora is ahead of Facebook
 description:
 ---
-
+<h1>Friends or where Diaspora is ahead of Facebook</h1>
 <p>
 No, I'm sorry this is not a rant post about how Diaspora will destroy Facebook, not at all. I still can't imagine that Diaspora will be a player as big as Facebook.
 </p>

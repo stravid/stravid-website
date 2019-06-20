@@ -8,16 +8,12 @@ title: Impressum
 description:
 ---
 
-<h1>Impressum</h1>
+# Impressum
 
-<p>
-  David Strauß<br />
-  Lebachstraße 20/2<br />
-  5322 Hof bei Salzburg<br />
-  Österreich
-</p>
+David Strauß
+Lebachstraße 20/2
+5322 Hof bei Salzburg
+Österreich
 
-<p>
-  Telefon: +43 664 216 403 4<br />
-  Email: david@strauss.io
-</p>
+Telefon: +43 664 216 403 4
+Email: david@strauss.io

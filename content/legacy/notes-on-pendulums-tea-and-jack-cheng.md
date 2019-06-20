@@ -7,6 +7,7 @@ language: en
 title: Notes on "Pendulums, Tea, and Jack Cheng"
 description: My notes on Justin Kropps interview with Jack Cheng
 ---
+# Notes on "Pendulums, Tea, and Jack Cheng"
 
 Some pieces from Justin Kropps [interview with Jack Cheng][Post] I would like to remember. If you have time, read the original interview!
 

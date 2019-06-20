@@ -7,6 +7,7 @@ language: en
 title: Reading Too Much, Too Fast - Three Book Diet
 description:
 ---
+# Reading Too Much, Too Fast - Three Book Diet
 
 Yesterday I came across the [Three Book Diet](http://theadmin.org/articles/three-book-diet/) by Eric Davis in which he also points to the [original article](http://www.chrisbrogan.com/3bd/) by Chris Brogan. The idea sounded interesting and made me think about a few things myself. Before I get into too much detail, what is the Three Book Diet?
 

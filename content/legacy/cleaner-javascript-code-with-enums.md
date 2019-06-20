@@ -8,6 +8,7 @@ language: en
 title: Cleaner JavaScript code with Enums
 description: Improve your JavaScript code by using enums.
 ---
+<h1>Cleaner JavaScript code with Enums</h1>
 
 <p>
 There is a very simple and obvious solution for a enum variable type in Javascript, a object.

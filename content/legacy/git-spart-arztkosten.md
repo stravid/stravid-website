@@ -8,7 +8,7 @@ language: de
 title: git spart Arztkosten
 description:
 ---
-
+<h1>git spart Arztkosten</h1>
 <p>
 Jedenfalls für alle Programmierer, Designer und sonstigen Leuten die am Computer mit Dateien arbeiten. Denn die, die noch nicht git verwenden, kennen folgendes nur zu gut:
 </p>

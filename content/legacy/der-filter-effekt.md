@@ -7,7 +7,7 @@ language: de
 title: Der Filter Effekt
 description:
 ---
-
+<h1>Der Filter Effekt</h1>
 <p>
 Die wunderbar gedämpfte Wahrnehmung der Welt und ihrer Reize die einem wiederfährt wenn man  einen Zeitraum in einer nach außen isolierten Umgebung verbracht hat und sie dann mit einem weinenden und einem lachenden Auge verlässt.
 </p>

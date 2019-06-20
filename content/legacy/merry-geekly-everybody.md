@@ -1,11 +1,13 @@
 ---
 id: 34
 outputs:
+  - /en/merry-geekly-everybody/index.html
   - /34/index.html
 language: en
 title: Merry Geekly Everybody!
 description:
 ---
+<h1>Merry Geekly Everybody!</h1>
 
 <p>
 Ismail Hanli, a friend and fellow student of mine, finally deployed the new version of his blog / portfolio! The whole thing is named <a href="http://ismailhanli.multimediatechnology.at">Geekly</a> since he has the ambitious goal of writing an interesting blog post for people like us every week. I'm looking forward to see if he can live up to the expectations and deliver fresh content every once in a while.

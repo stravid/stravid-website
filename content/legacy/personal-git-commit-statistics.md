@@ -8,6 +8,7 @@ language: en
 title: Personal Git Commit Statistics
 description: A list of possible solutions to track your personal commit statistics
 ---
+# Personal Git Commit Statistics
 
 Update&#58; Thomas Buchöster and I built [Hulkort][5], a website which let's you track your Git commit statistics with the help of Git hooks!
 

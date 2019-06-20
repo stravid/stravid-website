@@ -7,6 +7,7 @@ language: en
 title: Track Your Git Commit Statistics With Hulkort
 description: Thomas Buchöster and I build Hulkort. A simple website allowing you to track your Git commit statistics.
 ---
+# Track Your Git Commit Statistics With Hulkort
 
 [Hulkort][1] helps you tracking your Git commit statistics.
 It's as simple as eating ice cream, try it yourself!

@@ -7,6 +7,7 @@ language: de
 title: Web-DesignerInnen die kein HTML & CSS können
 description:
 ---
+# Web-DesignerInnen die kein HTML & CSS können
 
 Leider gibt es viele Web-DesignerInnen die kein HTML & CSS schreiben können. Ich wünsche mir, dass sich das ändert. HTML & CSS ist nun einmal die Grundlage für das Web, einer Webseite, einem Webdesign. Wenn man das nicht beherrscht fehlt einem das Verständnis für das Medium.
 

@@ -7,6 +7,7 @@ language: de
 title: Ember.js Einführungs-Workshop
 description: Ankündigung meines Ember.js Workshops für EinsteigerInnen
 ---
+# Ember.js Einführungs-Workshop
 
 *Update vom 28. September*
 Die Website des [Ember.js Workshops](http://edgycircle.com/leistungen/emberjs-workshop/) mit den Inhalten ist online. Eine Zeiterfassungs App wird als Beispiel umgesetzt, an dieser Stelle noch einmal danke an alle die mir bei der Wahl geholfen haben.

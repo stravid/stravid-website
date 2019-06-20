@@ -7,7 +7,7 @@ language: en
 title: Webdevelopers let me introduce you to Gridulator
 description:
 ---
-
+<h1>Webdevelopers let me introduce you to Gridulator</h1>
 <p>
 <a href="http://gridulator.com/">Gridulator</a> is a slick tool for people like me. I acknowledge the usefulness of grids but I'm to lazy to calculate one by myself and the grid frameworks out there don't play well with my definition of of nice, semantic markup. So there is no hope for my lovely mother to hook me up with grids. Until now!
 </p>

@@ -8,7 +8,7 @@ language: en
 title: Adminer, the small footprint alternative to phpMyAdmin
 description: You should use Adminer instead of phpMyAdmin
 ---
-
+<h1>Adminer, the small footprint alternative to phpMyAdmin</h1>
 <p>
 I have no clue why most people use <a href="http://www.phpmyadmin.net/home_page/index.php">phpMyAdmin</a> as a graphical user interface when it comes to databases. phpMyAdmin looks horrible and is, in my opinion, bloated.
 </p>

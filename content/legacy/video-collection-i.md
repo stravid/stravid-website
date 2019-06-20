@@ -7,7 +7,7 @@ language: en
 title: Video Collection I
 description:
 ---
-
+<h1>Video Collection I</h1>
 <p>
 A collection of videos I recently discovered and liked. And the first attempt to insert videos into a blog post. Where possible, watch in HD!
 </p>

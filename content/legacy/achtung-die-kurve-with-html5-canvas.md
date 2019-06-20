@@ -8,6 +8,7 @@ language: en
 title: Achtung die Kurve with HTML5 Canvas
 description: Announcement of the HTML5 Canvas game Achtung die Kurve
 ---
+<h1>Achtung die Kurve with HTML5 Canvas</h1>
 
 <p>
 Finally I can announce that <a href="http://stravid.com/projects/achtung-die-kurve/">Achtung die Kurve</a> is released!

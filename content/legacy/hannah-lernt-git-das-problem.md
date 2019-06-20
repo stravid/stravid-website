@@ -7,6 +7,7 @@ language: de
 title: Hannah lernt Git - Das Problem
 description:
 ---
+# Hannah lernt Git - Das Problem
 
 *Dieser Beitrag gehört zur "Hannah lernt Git" Serie. Ich empfehle dass du mit dem [ersten Beitrag][introduction] zu lesen beginnst.*
 

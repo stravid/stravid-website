@@ -7,6 +7,7 @@ language: en
 title: How I Remember More From Articles And Books I Read
 description: A post about the approach I use to get more out of my reading.
 ---
+# How I Remember More From Articles And Books I Read
 
 *I would like to learn more from articles and books. Usually I forget all the interesting pieces I discovered once I'm finished. To prevent this I write about the relevant points I would like to remember and practice. The act of writing helps me to remember and learn more. Personally I will try to make more notes about the things I read on a daily basis.*
 

@@ -8,7 +8,7 @@ language: de
 title: Die git Krabbelstube
 description: Mit git gehen lernen.
 ---
-
+<h1>Die git Krabbelstube</h1>
 <p>
 Wer nicht weiß was git ist oder wieso er es ausprobieren und benutzen soll kann sein Wissen mit dem Beitrag <a href="http://stravid.com/blog/2010/09/git-spart-arztkosten/">git spart Arztkosten</a> auffrischen!
 </p>

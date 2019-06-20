@@ -7,6 +7,8 @@ language: en
 title: CoffeeScript and Ruby Development Setup on OSX Lion
 description: An opinionated CoffeeScript and Ruby development setup guide.
 ---
+# CoffeeScript and Ruby Development Setup on OSX Lion
+
 This article shows you how to set up a modern development environment for CoffeeScript and Ruby. It assumes you have a fresh installation of Lion. If that's not the case, you may have to alter or skip some steps.
 
 I'm opinionated, which means you may not like my choices. That's okay, there are a million possible setups to develop for CoffeeScript and Ruby. This one works great for me.

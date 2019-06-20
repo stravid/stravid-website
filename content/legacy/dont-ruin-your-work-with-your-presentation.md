@@ -7,6 +7,7 @@ language: en
 title: Don't Ruin Your Work With Your Presentation
 description: Pitfalls you should avoid if you want to give a great presentation
 ---
+# Don't Ruin Your Work With Your Presentation
 
 Presentations are a two sided sword. A good presentation will land you a pitch or give your project a lot of attention. A bad presentation will not only lose you the deal. It will also damage your work and make it look bad.
 

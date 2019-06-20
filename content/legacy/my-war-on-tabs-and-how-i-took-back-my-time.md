@@ -7,7 +7,7 @@ language: en
 title: My war on tabs and how I took back my time
 description:
 ---
-
+<h1>My war on tabs and how I took back my time</h1>
 <p>
 Not long ago I had a problem: 2 Google Chrome windows, each containing 40+ open tabs.
 </p>

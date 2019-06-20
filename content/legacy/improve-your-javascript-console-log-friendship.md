@@ -8,7 +8,7 @@ language: en
 title: Improve your Javascript console.log friendship
 description: Get the most out of console.log
 ---
-
+<h1>Improve your Javascript console.log friendship</h1>
 <p>
 In case you wonder what the hell <code>console.log</code> is read my earlier post <a href="http://stravid.com/blog/2010/09/stop-the-javascript-alert-madness/">Stop the Javascript alert() madness</a>.
 </p>

@@ -7,6 +7,8 @@ language: en
 title: Category Aware Previous And Next For Jekyll Posts
 description:
 ---
+# Category Aware Previous And Next For Jekyll Posts
+
 *A Jekyll post has the two attributes `previous` and `next` for accessing the previous or next post of the current post. These two attributes are not aware of categories. This has the implication that you can get incorrect posts for `previous` and `next` when used in the context of a specific category. To solve this problem I wrote a custom Jekyll generator which creates correct previous and next attributes for every category.*
 
 In my last post where I talked about [simple one command FTP deploys](http://stravid.com/en/jekyll-one-command-ftp-deploys/) I mentioned that I rebuilt this website. Part of this rewrite was the separation of german and english posts. Previously my website consisted of a single list mixed with both german and english posts. In order to give visitors who can only read one of the two languages a better experience, I decided to split the  posts into two different archives.

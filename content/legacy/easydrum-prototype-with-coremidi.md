@@ -4,9 +4,10 @@ outputs:
   - /en/easydrum-prototype-with-coremidi/index.html
   - /29/index.html
 language: en
-title: asydrum Prototype With CoreMIDI
+title: easydrum Prototype With CoreMIDI
 description:
 ---
+# easydrum Prototype With CoreMIDI
 
 *I wrote a little OS X application over the course of 4 days to test a game idea. The application connects via CoreMIDI to an electronic drum set. Then it tells the player to play certain drums in a specific order. It checks the correct order and gives  feedback.*
 

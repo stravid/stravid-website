@@ -6,6 +6,8 @@ GEM
     adsf (1.4.2)
       rack (>= 1.0.0, < 3.0.0)
     colored (1.2)
+    commonmarker (0.20.1)
+      ruby-enum (~> 0.5)
     concurrent-ruby (1.1.5)
     cri (2.15.9)
     ddmemoize (1.0.0)
@@ -17,8 +19,9 @@ GEM
     equatable (0.5.0)
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
+    i18n (1.6.0)
+      concurrent-ruby (~> 1.0)
     json_schema (0.20.6)
-    kramdown (2.1.0)
     nanoc (4.11.5)
       addressable (~> 2.5)
       colored (~> 1.2)
@@ -46,6 +49,8 @@ GEM
     public_suffix (3.1.0)
     rack (2.0.7)
     ref (2.0.0)
+    ruby-enum (0.7.2)
+      i18n
     slow_enumerator_tools (1.1.0)
     tomlrb (1.2.8)
     tty-color (0.4.3)
@@ -75,7 +80,7 @@ PLATFORMS
 
 DEPENDENCIES
   adsf (= 1.4.2)
-  kramdown (= 2.1.0)
+  commonmarker (= 0.20.1)
   nanoc (= 4.11.5)
 
 BUNDLED WITH

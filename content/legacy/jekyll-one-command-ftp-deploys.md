@@ -7,6 +7,7 @@ language: en
 title: Jekyll - One Command FTP Deploys
 description:
 ---
+# Jekyll - One Command FTP Deploys
 
 *This website is built with Jekyll and hosted on HostEurope. In order to get rid of the manual FTP deploy routine I wrote a little Thor task for command line deploys. With the help of LFTP I now have the same convenient deploy experience to my web hoster as I have with Heroku and GitHub Pages.*
 

@@ -7,7 +7,7 @@ language: en
 title: Some Interesting Reads
 description:
 ---
-
+<h1>Some Interesting Reads</h1>
 <p>
 Recently I read some interesting articles, not so much about code and programming but anyways I want to share and remember them.
 </p>

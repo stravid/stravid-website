@@ -8,7 +8,7 @@ language: en
 title: Stop the Javascript alert() madness
 description:
 ---
-
+<h1>Stop the Javascript alert() madness</h1>
 <p>
 We have the year 2010 and there are still people out there using <code>alert()</code> to debug javascript code.
 </p>

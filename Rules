@@ -12,7 +12,7 @@ preprocess do
   TEXT
 
   relevant_items = @items.select { |item| item.identifier =~ /.*\.md$/i }
-  sorted_relevant_items = relevant_items.sort { |a, b| a[:id] <=> b[:id] }
+  sorted_relevant_items = relevant_items.sort { |a, b| a[:id] <=> b[:id] }.reverse
   max_id = relevant_items.map { |item| item[:id] }.max
 
   sorted_relevant_items.each do |item|
@@ -102,7 +102,7 @@ compile '/standalone/**/*' do
 end
 
 compile "/**/*.md" do
-  filter :kramdown
+  filter :markdown
   layout '/default.*'
   write item[:outputs].first
 end

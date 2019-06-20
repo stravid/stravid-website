@@ -7,6 +7,7 @@ language: en
 title: 2012 In Numbers
 description:
 ---
+# 2012 In Numbers
 
 I never wrote a detailed account of what I have accomplished in a year but I think now it's a good time to start. This will allow me to compare things at the end of 2013 and measure my progress.
 

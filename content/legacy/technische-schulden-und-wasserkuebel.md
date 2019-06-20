@@ -7,6 +7,7 @@ language: de
 title: Technische Schulden und Wasserkübel
 description:
 ---
+# Technische Schulden und Wasserkübel
 
 Technische Schulden sind wie Wasserkübel bei einem Hochwasser, man muss sie regelmäßig ausleeren bevor es zu spät ist.
 

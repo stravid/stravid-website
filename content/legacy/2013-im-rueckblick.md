@@ -7,6 +7,7 @@ language: de
 title: 2013 im Rückblick
 description:
 ---
+# 2013 im Rückblick
 
 Letztes Jahr habe ich bereits [darüber geschrieben wie das Jahr 2012 war](http://stravid.com/en/2012-in-numbers/), unter anderem in Zahlen ausgedrückt.
 

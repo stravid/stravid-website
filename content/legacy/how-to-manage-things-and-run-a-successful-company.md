@@ -7,7 +7,7 @@ language: en
 title: How To Manage Things And Run a Successful Company
 description: A round-up of my notes on Dorm Room Tycoons interview with David Heinemeier Hansson
 ---
-
+<h1>How To Manage Things And Run a Successful Company</h1>
 <p>
 I recently listened to an podcast by Dorm Room Tycoon. They <a href="http://www.dormroomtycoon.com/david-hansson/">interviewed David Heinemeier Hansson</a> about how he manages things on daily basis and what it needs to run a successful company. The following is a round-up of my notes I took while listening:
 </p>

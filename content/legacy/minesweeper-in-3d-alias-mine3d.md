@@ -8,7 +8,7 @@ language: en
 title: Minesweeper in 3D alias mine3D
 description: Review of the Minesweeper game mine3D
 ---
-
+<h1>Minesweeper in 3D alias mine3D</h1>
 <p>
 Like a lot of other people Eberhard Gräther loves Minesweeper. The thinking game introduced by Microsoft for their Windows platform caught him. But when he switched from Windows to Mac there was no more Minesweeper.
 </p>
