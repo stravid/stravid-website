@@ -10,7 +10,7 @@ description: My name is David Strauß. I'm a developer from Austria, currently l
 
 <h1>About</h1>
 <p>
-  My name is David Strauß. I'm a developer from Austria, currently living in the beautiful city Salzburg. In 2012 I graduated from Salzburg University of Applied Sciences as a Bachelor of Science in Engineering with honours. You can view my <a href="/resume.pdf">resumé</a> to get a more detailed account of my professional life.
+  My name is David Strauß. I'm a developer from Austria, currently living in the beautiful city Salzburg. In 2012 I graduated from Salzburg University of Applied Sciences as a Bachelor of Science in Engineering with honours.
 </p>
 
 <p>
