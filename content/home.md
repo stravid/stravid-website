@@ -8,6 +8,6 @@ title: The digital home of David Strauß
 description: About robust software and digital self-sufficiency.
 ---
 
- I'm David Strauß and I have a tilted front tooth. In my childhood I flooded my neighbourhood with a self-built dam. Since then I never stopped building things. Nowadays I prefer building digital things like software systems.
+Welcome to my digital home. My name is **David Strauß**. In my childhood I flooded the neighbourhood with a self-built dam. Nowadays I build useful digital projects that challenge me.
 
-**Welcome to my digital home.** It has many different rooms that accommodate the various things that I do and build.
+Similar to the dam I focus on a robust and durable implementation, because even after 20 years it works as intended.
