@@ -1,5 +1,8 @@
-~~~
-bin/nanoc
-bin/nanoc next-page
-bin/nanoc view --host 127.0.0.1 --port 3000
-~~~
+**Start development environment**
+`make`
+
+**Output metadata for next page**
+`make next-page`
+
+**Deploy**
+`make deploy`
