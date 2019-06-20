@@ -1,6 +1,7 @@
 ---
 id: 10
 outputs:
+  - /en/trusting-facebook-will-embarrass-you/index.html
   - /articles/trusting-facebook-will-embarrass-you/index.html
   - /10/index.html
 language: en

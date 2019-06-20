@@ -1,6 +1,7 @@
 ---
 id: 4
 outputs:
+  - /en/achtung-die-kurve-with-html5-canvas/index.html
   - /articles/achtung-die-kurve-with-html5-canvas/index.html
   - /4/index.html
 language: en

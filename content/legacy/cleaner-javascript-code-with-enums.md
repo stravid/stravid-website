@@ -1,6 +1,7 @@
 ---
 id: 6
 outputs:
+  - /en/cleaner-javascript-code-with-enums/index.html
   - /articles/cleaner-javascript-code-with-enums/index.html
   - /6/index.html
 language: en

@@ -1,6 +1,7 @@
 ---
 id: 9
 outputs:
+  - /en/personal-git-commit-statistics/index.html
   - /articles/personal-git-commit-statistics/index.html
   - /9/index.html
 language: en

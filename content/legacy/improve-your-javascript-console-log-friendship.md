@@ -1,6 +1,7 @@
 ---
 id: 7
 outputs:
+  - /en/improve-your-javascript-console-log-friendship/index.html
   - /articles/improve-your-javascript-console-log-friendship/index.html
   - /7/index.html
 language: en

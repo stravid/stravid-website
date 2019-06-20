@@ -1,6 +1,7 @@
 ---
 id: 8
 outputs:
+  - /en/minesweeper-in-3d-alias-mine3d/index.html
   - /articles/minesweeper-in-3d-alias-mine3d/index.html
   - /8/index.html
 language: en

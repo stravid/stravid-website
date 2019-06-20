@@ -1,6 +1,7 @@
 ---
 id: 5
 outputs:
+  - /en/adminer-the-small-footprint-alternative-to-phpmyadmin/index.html
   - /articles/adminer-the-small-footprint-alternative-to-phpmyadmin/index.html
   - /5/index.html
 language: en
