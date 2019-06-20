@@ -1,0 +1,115 @@
+#!/usr/bin/env ruby
+
+# Make basic sanity checks regarding id sequence and outputs uniqueness
+preprocess do
+  # Dynamically generate Englisch and German sitemaps
+  english_content = <<~TEXT
+    # List of English content\n
+  TEXT
+
+  german_content = <<~TEXT
+    # Liste deutscher Inhalte\n
+  TEXT
+
+  relevant_items = @items.select { |item| item.identifier =~ /.*\.md$/i }
+  sorted_relevant_items = relevant_items.sort { |a, b| a[:id] <=> b[:id] }.reverse
+  max_id = relevant_items.map { |item| item[:id] }.max
+
+  sorted_relevant_items.each do |item|
+    if item[:language] == 'de'
+      german_content << "[#{item[:title]}](#{item[:outputs].first.gsub('index.html', '')})\n"
+    end
+
+    if item[:language] == 'en'
+      english_content << "[#{item[:title]}](#{item[:outputs].first.gsub('index.html', '')})\n"
+    end
+  end
+
+  @items.create(english_content, {
+    id: max_id + 1,
+    outputs: [
+      '/en/index.html'
+    ],
+    language: 'en',
+    title: 'English content written by David Strauß',
+    description: 'A sitemap of all english content.',
+  }, '/en.md')
+
+  @items.create(german_content, {
+    id: max_id + 2,
+    outputs: [
+      '/de/index.html'
+    ],
+    language: 'de',
+    title: 'Deutsche Inhalte geschrieben von David Strauß',
+    description: 'Eine Sitemap von allen deutschen Inhalten.',
+  }, '/de.md')
+
+  standalone_items, to_be_processed_items = @items.partition do |item|
+    item.identifier.to_s.start_with?('/standalone/')
+  end
+
+  sorted_items = to_be_processed_items.sort { |a, b| a[:id] <=> b[:id] }
+  first_item = sorted_items.first
+  first_id = first_item[:id]
+  outputs = {}
+
+  # Standalone URIs have priority
+  standalone_items.each do |item|
+    outputs[item.identifier.to_s.gsub('/standalone', '')] = item
+  end
+
+  # Make sure the ids start at 1
+  unless first_id == 1
+    abort "Expected `id` of `#{first_item.identifier}` to be `1` but got `#{first_id}` instead."
+  end
+
+  # Make sure ids are sequential
+  sorted_items.each_cons(2) do |x, y|
+    unless y[:id] == x[:id] + 1
+      abort "Expected sequential `id` of `#{y.identifier}` to be `#{x[:id] + 1}` but got `#{y[:id]}` instead."
+    end
+  end
+
+  sorted_items.each do |item|
+    item[:outputs].each do |output|
+      if outputs.key?(output)
+        abort "Expected output `#{output}` of `#{item.identifier}` to be uniq but it is already used by `#{outputs[output].identifier}`."
+      end
+
+      outputs[output] = item
+    end
+  end
+
+  # Create redirects for all additional outputs
+  items = sorted_items.dup
+
+  items.each do |item|
+    original_output, *additional_outputs = item[:outputs]
+
+    additional_outputs.each do |output|
+      content = ''
+      attributes = item.attributes.merge({ outputs: [output], original_output: original_output })
+      identifier = "/redirects#{output}"
+
+      @items.create(content, attributes, identifier)
+    end
+  end
+end
+
+compile '/standalone/**/*' do
+  write item.identifier.to_s.gsub('/standalone', '')
+end
+
+compile "/**/*.md" do
+  filter :markdown
+  layout '/default.*'
+  write item[:outputs].first
+end
+
+compile "/redirects/**/*" do
+  layout '/redirect.*'
+  write item[:outputs].first
+end
+
+layout '/**/*', :erb

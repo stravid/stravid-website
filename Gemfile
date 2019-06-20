@@ -1,8 +1,6 @@
-source 'http://rubygems.org'
+# frozen_string_literal: true
 
-gem 'jekyll'
-gem 'sass'
-gem 'thor'
-gem 'stringex'
-gem 'maruku'
-gem 'iconv'
+source 'https://rubygems.org'
+
+gem 'nanoc', '4.11.5'
+gem 'commonmarker', '0.20.1'

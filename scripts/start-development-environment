@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+
+set -o errexit
+set -o nounset
+set -o pipefail
+
+# Process ids of background scripts so they can be stopped when necessary
+PIDS=""
+
+# Stop all background processes
+onexit() {
+  echo "SIGINT received"
+  echo "Sending SIGTERM to all processes"
+  kill $PIDS
+  sleep 1
+}
+
+# Generate the example website whenever relevant files change
+bin/watchexec --restart -i output bin/nanoc &
+PIDS="$PIDS $!"
+
+# Start the example server in the background and store its pid
+scripts/start-development-server &
+PIDS="$PIDS $!"
+
+# Give the example server time to boot and then open the website in the browser
+sleep 1
+open 'http://localhost:5000'
+
+# Use our own logic to stop
+trap onexit INT TERM
+
+# Don't exit the script until the background processes are stopped
+wait $PIDS

@@ -1,8 +1,13 @@
-all:
-	tychus "make server" -a 4000 -p 5000 -x public
+.DEFAULT_GOAL := start-development-environment
 
-server: Gemfile.lock
-	bundle exec jekyll --server
+.PHONY: start-development-environment
+start-development-environment:
+	@scripts/start-development-environment
 
-Gemfile.lock: Gemfile
-	bundle install
+.PHONY: next-page
+next-page:
+	@bin/nanoc next-page
+
+.PHONY: deploy
+deploy:
+	@bin/deploy
