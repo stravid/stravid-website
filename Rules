@@ -14,6 +14,7 @@ preprocess do
   relevant_items = @items.select { |item| item.identifier =~ /.*\.md$/i }
   sorted_relevant_items = relevant_items.sort { |a, b| a[:id] <=> b[:id] }.reverse
   max_id = relevant_items.map { |item| item[:id] }.max
+  @config[:max_id] = max_id
 
   sorted_relevant_items.each do |item|
     if item[:language] == 'de'
@@ -89,7 +90,7 @@ preprocess do
 
     additional_outputs.each do |output|
       content = ''
-      attributes = item.attributes.merge({ outputs: [output], original_output: original_output })
+      attributes = item.attributes.merge({ outputs: [output], original_output: original_output.gsub('index.html', '') })
       identifier = "/redirects#{output}"
 
       @items.create(content, attributes, identifier)
