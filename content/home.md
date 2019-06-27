@@ -12,4 +12,5 @@ Welcome to my digital home. My name is **David Strauß**. In my childhood I floo
 
 Similar to the dam I focus on a robust and durable implementation, because even after 20 years it works as intended. Currently following projects and things occupy my time:
 
+**[Facetbox](/56-facetbox/)** - A facet search implementation
 **[Technology update of www.stravid.com](/55-the-technology-behind-www-stravid-com/)**
