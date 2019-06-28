@@ -43,7 +43,7 @@ Possible API to query index:
 
 ~~~
 index.find({
-  terms: [
+  term: [
     '2019-summer',
   ],
   weekdays: [
@@ -70,3 +70,9 @@ Possible result of a query:
   },
 }
 ~~~
+
+**Update 28.06.2019**
+
+The very basic prototype in Ruby works. While it's a apples to oranges comparison it's a lot faster than the PostgreSQL solution.
+
+Right now it's unclear how to proceed. Invest more time into the prototype and figure out how to do time based filtering and the best way to integrate it into the application. On the other hand ressources could be put into the PostgreSQL solution to make it better.
