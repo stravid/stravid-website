@@ -13,7 +13,7 @@
   <body>
   <% if @item[:language] == 'de' %>
     <p>
-      <a href="/">&larr; Startseite</a> &middot; <a href="/home">Switch to English</a>
+      STRAVID - Gemeinsam Software bauen.
     </p>
 
     <%= yield %>
@@ -21,16 +21,12 @@
     <hr>
 
     <p>
-      Bitte schreib mir eine Email an <a href="mailto:david@strauss.io">david@strauss.io</a>, ich freue mich drauf von dir zu hören.
+      Du hast Fragen, Ideen oder Anregungen? Ich lese gerne von dir und freue mich auf einen Austausch von Gedanken. Schreib mir an <a href="mailto:david@strauss.io">david@strauss.io</a> und sag “Hallo”.
+    </p>
+
+    <p>
+      <a href="javascript:window.location.pathname = '/' + (Math.floor(Math.random() * <%= @config[:max_id] %>) + 1) + '/';">Zufällige Seite</a>
       <br>
-      Für <a href="https://www.edgycircle.com">kommerzielle IT-Projekte ist edgycircle.com</a> die richtig Anlaufstelle.
-    </p>
-
-    <p>
-      <button onclick="window.location.pathname = '/' + (Math.floor(Math.random() * <%= @config[:max_id] %>) + 1) + '/';">Öffne zufällige Seite</button>
-    </p>
-
-    <p>
       <a href="/sitemap.html">Sitemap</a>
       <br>
       <a href="/impressum">Impressum</a>
@@ -55,10 +51,8 @@
     </p>
 
     <p>
-      <button onclick="window.location.pathname = '/' + (Math.floor(Math.random() * <%= @config[:max_id] %>) + 1) + '/';">Open random page</button>
-    </p>
-
-    <p>
+      <a href="javascript:window.location.pathname = '/' + (Math.floor(Math.random() * <%= @config[:max_id] %>) + 1) + '/';">Random Page</a>
+      <br>
       <a href="/sitemap.html">Sitemap</a>
       <br>
       <a href="/impressum">Imprint</a>
