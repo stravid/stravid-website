@@ -12,6 +12,10 @@
   </head>
   <body>
   <% if @item[:language] == 'de' %>
+    <p style="font-size: 0.8rem;">
+      <a href="/">Deutsche Startseite</a> · <a href="/home">English Homepage</a>
+    </p>
+
     <p>
       STRAVID - Gemeinsam Software bauen.
     </p>
@@ -36,8 +40,12 @@
   <% end %>
 
   <% if @item[:language] == 'en' %>
+    <p style="font-size: 0.8rem;">
+      <a href="/">Deutsche Startseite</a> · <a href="/home">English Homepage</a>
+    </p>
+
     <p>
-      <a href="/home">&larr; Home</a> &middot; <a href="/">Auf Deutsch wechseln</a>
+      STRAVID - Building software collectively.
     </p>
 
     <%= yield %>
@@ -45,9 +53,8 @@
     <hr>
 
     <p>
-      Please send an email to <a href="mailto:david@strauss.io">david@strauss.io</a>, I'm looking forward to hear from you.
-      <br>
-      For <a href="https://www.edgycircle.com">commercial IT projects edgycircle.com</a> is the right place to go.
+      You have questions, ideas or feedback? I like to hear from you and I'm looking forward to exhange thoughts.
+      Please send an email to <a href="mailto:david@strauss.io">david@strauss.io</a> and say “Hello”.
     </p>
 
     <p>

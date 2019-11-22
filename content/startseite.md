@@ -28,6 +28,7 @@ Wenn du Unterstützung bei deinem Vorhaben willst machen wir das über mein Unte
 Du willst lernen wie man robuste Software baut? Das finde ich gut. Hier findest du ein paar Links und Gedanken zu diesem Thema.
 
 - [Salzburger Software Modell](https://www.edgycircle.com/salzburger-software-modell/)
+- [Legacy Project Retrospection — Facing My Shortcomings](/58-dartboard-io-retrospection/)
 - [Die Technik hinter dieser Website](https://www.stravid.com/55-the-technology-behind-www-stravid-com/)
 - [Characteristics of Quality Software Projects](https://www.strauss.io/blog/2018-characteristics-of-quality-software-projects.html)
 - [Treat Transactional Emails like Letters](https://www.strauss.io/blog/2018-treat-transactional-emails-like-letters.html)
