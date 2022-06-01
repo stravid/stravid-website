@@ -16,7 +16,7 @@ onexit() {
 }
 
 # Generate the example website whenever relevant files change
-bin/watchexec --restart -i output bin/nanoc &
+watchexec --restart -i output bin/nanoc &
 PIDS="$PIDS $!"
 
 # Start the example server in the background and store its pid
@@ -25,7 +25,7 @@ PIDS="$PIDS $!"
 
 # Give the example server time to boot and then open the website in the browser
 sleep 1
-open 'http://localhost:5000'
+firefox 'http://localhost:5000'
 
 # Use our own logic to stop
 trap onexit INT TERM
