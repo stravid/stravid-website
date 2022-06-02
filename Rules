@@ -50,7 +50,8 @@ preprocess do
     item.identifier.to_s.start_with?('/standalone/')
   end
 
-  sorted_items = to_be_processed_items.sort { |a, b| a[:id] <=> b[:id] }
+  items_with_id = to_be_processed_items.select { |item| item.key?(:id) }
+  sorted_items = items_with_id.sort { |a, b| a[:id] <=> b[:id] }
   first_item = sorted_items.first
   first_id = first_item[:id]
   outputs = {}
