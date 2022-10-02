@@ -27,6 +27,7 @@ Wenn du Unterstützung bei deinem Vorhaben willst machen wir das über mein Unte
 
 Du willst lernen wie man robuste Software baut? Das finde ich gut. Hier findest du ein paar Links und Gedanken zu diesem Thema.
 
+- [Bessere Software durch weniger Abhängigkeiten: Praxisbericht Besserliste](/60/bessere-software-durch-weniger-abhaengigkeiten-praxisbericht-besserliste/)
 - [Salzburger Software Modell](https://www.edgycircle.com/salzburger-software-modell/)
 - [Legacy Project Retrospection — Facing My Shortcomings](/58-dartboard-io-retrospection/)
 - [Die Technik hinter dieser Website](https://www.stravid.com/55-the-technology-behind-www-stravid-com/)

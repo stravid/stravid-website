@@ -118,4 +118,12 @@ compile "/**/*.png" do
   write item.identifier
 end
 
+compile "/**/*.jpeg" do
+  write item.identifier
+end
+
+compile "/**/*.mp4" do
+  write item.identifier
+end
+
 layout '/**/*', :erb
