@@ -280,7 +280,7 @@ Zu meiner Freude funktionierte es tadellos. Damit war das Thema [Autocomplete mi
 
 ### <a name="heading-3-4">Formulargestaltung
 
-Komplexe Bedienelemente und Interaktionen sind eine Sache der Vergangenheit. Wie bei so vielem ist auch in der Formulargestaltung weniger mehr. [Adam Silvers](https://adamsilver.io/) Form Desing Masterclass Workshop und unzählige Blogartikel haben mir gelernt, worauf es bei bedienbaren Formularen ankommt. Diesem Rat versuche ich so gut es geht zu folgen. Dass dadurch die Umsetzung einfacher wird, ist ein hervorragender Bonus.
+Komplexe Bedienelemente und Interaktionen sind eine Sache der Vergangenheit. Wie bei so vielem ist auch in der Formulargestaltung weniger mehr. [Adam Silvers](https://adamsilver.io/) Form Desing Masterclass Workshop und unzählige Blogartikel haben mich gelehrt, worauf es bei bedienbaren Formularen ankommt. Diesem Rat versuche ich so gut es geht zu folgen. Dass dadurch die Umsetzung einfacher wird, ist ein hervorragender Bonus.
 
 Die Inspiration für Fehlermeldungen und Optik kommt vom [GOV.UK Design System](https://design-system.service.gov.uk/). Es ist beeindruckend, wie viel Sorgfalt und Überlegungen dort hineinfließen.
 
@@ -326,7 +326,7 @@ Ich habe leider keine Zeiterfassung betrieben und kann deshalb keine exakte Anga
 
 ## <a name="heading-4">Gelerntes und Blick in die Zukunft
 
-Während der Umsetzung des Projektes gab es diverse technische Herausforderungen, die mich gezwungen haben neues zu lernen und meinen Horizont zu erweitern. Wichtige Erkenntnisse konnte ich auch zu meinem Zugang zur Entwicklung von Webanwendungen gewinnen.
+Während der Umsetzung des Projektes gab es diverse technische Herausforderungen, die mich gezwungen haben, Neues zu lernen und meinen Horizont zu erweitern. Wichtige Erkenntnisse konnte ich auch zu meinem Zugang zur Entwicklung von Webanwendungen gewinnen.
 
 ### <a name="heading-4-1">SQLite und ICU Komplexität
 
