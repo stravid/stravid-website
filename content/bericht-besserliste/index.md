@@ -49,7 +49,7 @@ Die Besserliste ist eine digitale Einkaufsliste. Sie zeigt die Prinzipien von Ro
 
 Lebensmittel einkaufen ist etwas, das fast jeder von uns regelmäßig tut. Diejenigen, die dazu noch in ein Geschäft gehen, verwenden in der Regel eine Einkaufsliste. Eine Gedankenstütze, die uns dabei hilft, nichts zu vergessen.
 
-### <a name="heading-1-2">Einkaufen als Ehepaar
+### <a name="heading-1-1">Einkaufen als Ehepaar
 
 Meine Frau und ich kochen an den Wochenenden für die gesamte Woche vor. Dafür braucht es eine große Menge an Lebensmittel, die auf einer langen Einkaufsliste stehen. Die Einkaufsliste wird am Freitagabend geschrieben und samstags in aller Früh abgearbeitet.
 
@@ -57,7 +57,7 @@ Dazu wird der Einkaufswagen strategisch im Geschäft platziert, jeder wählt etw
 
 Für ein solches Vorgehen hat eine Einkaufsliste aus Papier diverse Nachteile. Der Zettel und Stift verstecken sich gelegentlich unter den Lebensmitteln. Außerdem sind sie ein klassischer Flaschenhals in einem Prozess mit Gleichzeitigkeit. Wenn wir beide gleichzeitig zum Einkaufswagen zurückkommen, kommt es regelmäßig zu Wartezeiten, bis Stift und Einkaufszettel verfügbar sind.
 
-### <a name="heading-1-3">Digitale Einkaufsliste
+### <a name="heading-1-2">Digitale Einkaufsliste
 
 Eine digitale Einkaufsliste hat diese Nachteile nicht. Sie lebt in der sagenumwobenen Cloud und jeder von uns kann sie auf seinem Smartphone sehen. Wir können unabhängig voneinander die Einkaufsliste abarbeiten. Wenn der eine etwas von der Liste streicht, verschwindet es bei dem anderen. Der Flaschenhals ist Geschichte.
 
@@ -69,7 +69,7 @@ Bereits mit unserer Einkaufsliste aus Papier haben wir uns das Geschäft in Bere
 
 Auf der Papierliste war es umständlich herauszufinden, ob alles aus dem Kühlregal bereits im Einkaufswagen liegt. Die digitale Einkaufsliste hat das drastisch vereinfacht.
 
-### <a name="heading-1-4">Datenverlust im Schneesturm
+### <a name="heading-1-3">Datenverlust im Schneesturm
 
 Die Überliste, das ist die Einkaufslisten App, hat jedoch auch massive Nachteile. Wir mussten feststellen, dass sie regelmäßig Daten verliert. Egal, ob beim Schreiben der Einkaufsliste oder dem Streichen von Produkten, vereinzelt verschwinden Einträge und tauchen plötzlich wieder auf.
 
@@ -280,7 +280,7 @@ Zu meiner Freude funktionierte es tadellos. Damit war das Thema [Autocomplete mi
 
 ### <a name="heading-3-4">Formulargestaltung
 
-Komplexe Bedienelemente und Interaktionen sind eine Sache der Vergangenheit. Wie bei so vielem ist auch in der Formulargestaltung weniger mehr. [Adam Silvers](https://adamsilver.io/) Form Desing Masterclass Workshop und unzählige Blogartikel haben mir gelernt, worauf es bei bedienbaren Formularen ankommt. Diesem Rat versuche ich so gut es geht zu folgen. Dass dadurch die Umsetzung einfacher wird, ist ein hervorragender Bonus.
+Komplexe Bedienelemente und Interaktionen sind eine Sache der Vergangenheit. Wie bei so vielem ist auch in der Formulargestaltung weniger mehr. [Adam Silvers](https://adamsilver.io/) Form Desing Masterclass Workshop und unzählige Blogartikel haben mich gelehrt, worauf es bei bedienbaren Formularen ankommt. Diesem Rat versuche ich so gut es geht zu folgen. Dass dadurch die Umsetzung einfacher wird, ist ein hervorragender Bonus.
 
 Die Inspiration für Fehlermeldungen und Optik kommt vom [GOV.UK Design System](https://design-system.service.gov.uk/). Es ist beeindruckend, wie viel Sorgfalt und Überlegungen dort hineinfließen.
 
@@ -326,7 +326,7 @@ Ich habe leider keine Zeiterfassung betrieben und kann deshalb keine exakte Anga
 
 ## <a name="heading-4">Gelerntes und Blick in die Zukunft
 
-Während der Umsetzung des Projektes gab es diverse technische Herausforderungen, die mich gezwungen haben neues zu lernen und meinen Horizont zu erweitern. Wichtige Erkenntnisse konnte ich auch zu meinem Zugang zur Entwicklung von Webanwendungen gewinnen.
+Während der Umsetzung des Projektes gab es diverse technische Herausforderungen, die mich gezwungen haben, Neues zu lernen und meinen Horizont zu erweitern. Wichtige Erkenntnisse konnte ich auch zu meinem Zugang zur Entwicklung von Webanwendungen gewinnen.
 
 ### <a name="heading-4-1">SQLite und ICU Komplexität
 
